@@ -1,14 +1,14 @@
 <template>
     <div class="bg-white mt-0 px-16">
         <div class="col-span-12 grid grid-cols-12 gap-6 mt-2 py-16 px-7">
-            <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y">
+            <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y  py-14">
                 <div class="relative">
                     <img class="block w-3/4 rounded-3xl mb-2 ml-3" src="../static/5J0A9108.JPG" alt="Your Company">
                     <div class="overlay w-3/4"></div>
                 </div>
             </div>
-            <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y">
-                <p class="text-5xl font-extrabold text-green-400 mt-4 italic">
+            <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y py-14">
+                <p class="text-5xl font-extrabold greencolor mt-4 italic">
                     Who are we?
                 </p>
                 <div class="mt-5 mr-5">
@@ -17,7 +17,10 @@
 
                     </p>
                 </div>
-                <button> Read More</button>
+                <button class="relative border border-black text-2xl font-bold rounded-md italic px-4 py-2 bg-yellow-300 mt-7">
+                    Read More
+                    <span class="background-button"></span>
+                </button>
         </div>
                                 
         </div>
@@ -25,7 +28,7 @@
 
         <div class="col-span-12 grid grid-cols-12 gap-6 mt-8">
             <div class="col-span-12 sm:col-span-4 2xl:col-span-3 intro-y">
-                <p class="text-5xl font-extrabold text-green-400 mt-4 italic">
+                <p class="text-5xl font-extrabold greencolor mt-4 italic">
                     What We Offer
                 </p>
                 
@@ -123,9 +126,9 @@
         <!--  -->
         <div class="flex justify-center mb-5">
             <div class="max-w-2xl">
-                <div class="px-10">
+                <div class="px-5">
                     <h2 class="text-red-600 text-5xl text-center font-extrabold italic mb-5">Online Learning Platform</h2>
-                    <p class="text-red-500 text-center">We are excited to offer our members an online education platform,
+                    <p class="text-red-500 text-center text-lg">We are excited to offer our members an online education platform,
                     designed to enhance their learning experience and provide access to resources from anywhere.</p>
                 </div>
             </div>
@@ -133,36 +136,36 @@
         <!--  -->
         <div class="flex justify-center mt-5 p-4">
             <div class="border border-green-300 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl  hover:-translate-y-0.5  hover:rotate-2 hover:scale-105 transition-all duration-300">
-                <h3 class="text-xl font-bold text-center text-green-400">Interactive Lessons</h3>
+                <h3 class="text-2xl font-bold text-center greencolor">Interactive Lessons</h3>
                 <!-- call images from static folder -->
                 <img src="../static/icons-17.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
             <div class="border border-red-700 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
-                <h3 class="text-xl font-bold text-center text-red-700">Discussion Forums</h3>
+                <h3 class="text-2xl font-bold text-center text-red-700">Discussion Forums</h3>
                 <img src="../static/icons-18.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
             <div class="border border-purple-800 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
-                <h3 class="text-xl font-bold text-center text-purple-900">Resource Library</h3>
+                <h3 class="text-2xl font-bold text-center text-purple-900">Resource Library</h3>
                 <img src="../static/icons-19.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
             <div class="border border-red-400 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
-                <h3 class="text-xl font-bold text-center text-red-500">Project Collaboration</h3>
+                <h3 class="text-2xl font-bold text-center text-red-500">Project Collaboration</h3>
                 <img src="../static/icons-20.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
         </div>
 
 
 
-        <hr class="border-t border-red-500 my-4 mx-48 mt-10 ">
+        <hr class="border-t border-red-500 my-4 mx-48 mt-14 ">
         <!--  -->
-        <div class="flex justify-center mt-5 mb-10">
+        <div class="flex justify-center mt-10 mb-10">
     <div class="max-w-3xl">
         <div class="px-6">
-            <h2 class=" text-3xl text-center text-green-400 font-extrabold mb-5 italic">Registration</h2>
-            <p class=" text-center text-green-400 text-lg">If you're interested in joining the Ethiopian Space Kids Club, we invite you to fill out our online registration form. Simply provide the required information, including your name, age, contact details, and a brief statement about your interest in space science. 
+            <h2 class=" text-5xl text-center greencolor font-extrabold mb-5 italic">Registration</h2>
+            <p class=" text-center greencolor text-lg">If you're interested in joining the Ethiopian Space Kids Club, we invite you to fill out our online registration form. Simply provide the required information, including your name, age, contact details, and a brief statement about your interest in space science. 
                 We will review your application and get back to you with further instructions.
             </p>
-            <div class="flex justify-center mt-10 mb-5"> 
+            <div class="flex justify-center mt-10 mb-10"> 
                 <button class="border border-gray-300 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
                  Register
                 </button>
@@ -190,10 +193,23 @@
   left: 0;
   width: 80%;
   height: 100%;
-  border: 2px solid rgb(102, 223, 102);
+  border: 2px solid #3BCEAC;
   border-radius: 50px;
   transform: rotate(-19deg);
   z-index: 1;
 }
 
+.background-button {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background: linear-gradient(45deg, transparent 0%, transparent 50%, black 50%, black 100%);
+    z-index: -1;
+}
+
+.greencolor{
+    color: #3BCEAC;
+}
 </style>
