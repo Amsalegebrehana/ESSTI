@@ -31,7 +31,12 @@
                 <p class="text-5xl font-extrabold greencolor mt-4 italic">
                     What We Offer
                 </p>
-                
+                <img src = "../static/eskc svgs-01.svg" alt="My Happy SVG" class="w-1/12 mt-24"/>
+                <img src = "../static/eskc svgs-02.svg" alt="My Happy SVG" class="w-1/12 mt-32 ml-48"/>
+                <img src = "../static/eskc svgs-03.svg" alt="My Happy SVG" class="w-1/12 mt-14 ml-24"/>
+                <img src = "../static/eskc svgs-07.svg" alt="My Happy SVG" class="w-1/12 mt-32 mb-48 ml-32"/>
+                <img src = "../static/eskc svgs-09.svg" alt="My Happy SVG" class="w-1/12 mt-48 ml-52"/>
+
             </div>
             <div class="col-span-12 sm:col-span-8 2xl:col-span-3 intro-y">
                 <div class="col-span-12 md:col-span-6 xl:col-span-4 2xl:col-span-12 mt-3">
@@ -166,7 +171,7 @@
                 We will review your application and get back to you with further instructions.
             </p>
             <div class="flex justify-center mt-10 mb-10"> 
-                <button class="border border-gray-300 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
+                <button @click="register()" class="border border-gray-300 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
                  Register
                 </button>
             </div>
@@ -178,6 +183,23 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: "TopDescription",
+    methods:{
+        // register redirect to https://forms.gle/FxQyYKVuQCP5RjNn6 
+        register(){
+            // navigate to the registration page
+            this.$router.push('/register');
+        },
+    }
+
+
+}
+
+
+
+</script>
 <style scoped>
 
 .card1text{
