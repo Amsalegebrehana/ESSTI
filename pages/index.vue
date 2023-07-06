@@ -8,12 +8,11 @@
               <h2 class="text-yellow-300 text-5xl font-bold italic px-16"> Support Us</h2>
               <div class="mt-10">
                   <p class="text-yellow-300 text-lg text-center">
-                    SSGI as a Government organization, the Ethiopian Space Kids Club relies on the support of government budget, generous individuals, sponsors, and partners. If you believe in our mission and would like to contribute, there are various ways to support us. You can make a donation, volunteer your time and expertise, or explore sponsorship opportunities.
-
+                    SSGI as a government organization, the Ethiopian Space Kids Club runs on the support of government budget. Since ESKC is working on children and talented kids, it is difficult to manage with this budget and we need passionate individuals who are generous to financialy support, sponsors, and partners. If you believe in our mission and would like to contribute, there are various ways to support us. You can make a donation, volunteer your time and expertise, or explore sponsorship opportunities.
                   </p>
                   <p class="text-yellow-300 mt-5 text-lg text-center">
                    
-Together, we can inspire the next generation of space enthusiasts and empower them to reach for the stars.
+                    Together, we can inspire the next generation of space enthusiasts and empower them to reach for the stars.
                   </p>
               </div>
              

@@ -13,9 +13,7 @@
                 </p>
                 <div class="mt-5 mr-5">
                     <p class="text-xl mt-5 text-purple-900 font-bold">
-                        The Ethiopian Space Kids Club is a dynamic and engaging organization dedicated to inspiring and educating children about the wonders of space science and exploration. Our mission is to ignite curiosity, foster a passion for learning, and empower young minds to reach for the stars. Through
-
-                    </p>
+                        The Ethiopian Space Kids Club(ESKC) is a dynamic and engaging club under the Space Science & Geospatial Institute (SSGI) dedicated to inspiring and educating children and young talented kids about the wonders of space science and exploration. Our mission is to ignite curiosity, foster a passion for learning, and empower young minds to excel in the field of space science, Through interactive activities, hands-on projects, and a supportive community, we aim to cultivate the next generation of scientists, engineers, and astronauts.  </p>
                 </div>
                 <button class="relative border border-black text-2xl font-bold rounded-md italic px-4 py-2 bg-yellow-300 mt-7">
                     Read More
@@ -53,10 +51,12 @@
                                     <div class="text-4xl text-purple-900 font-extrabold italic">Educational Programs</div>
                                    
                                 </div>
-                                <div class="text-purple-800 text-xl mt-4 ml-4">Our club offers a comprehensive curriculum that 
-                                    covers various aspects of space science application, Application of remote sensing satellite, 
-                                    Geodesy, UAV, Rocket, Aerospace engineering, Mapping, Coding, Robotics, Astronomy, and space exploration. Through age-appropriate modules and hands-on activities, we provide an enriching 
-                                    learning experience that sparks imagination and encourages critical thinking.</div>
+                                <div class="text-purple-800 text-xl mt-4 ml-4">Our club offers a comprehensive curriculum that covers various aspects of Space science, Remote sensing, Geodesy & Geodynamics, 
+                                    UAV/Drones, Rocket, Aerospace engineering, Mapping, Data Science , Robotics, 
+                                    Astronomy & Astrophysics, and Space exploration. Through age-appropriate modules and 
+                                    hands-on activities, we provide an enriching learning experience that sparks imagination and
+                                     encourages critical thinking.
+                                </div>
                             </div>
                         </div>
 
@@ -73,9 +73,8 @@
                                     <div class="text-4xl text-purple-900 font-extrabold italic">Club Activities</div>
                                    
                                 </div>
-                                <div class="text-purple-800 text-xl mt-4 ml-4">Members of the Ethiopian Space Kids Club 
-                                    can participate in regular meetings, workshops, and events. These gatherings feature educational sessions, demonstrations, and presentations by guest speakers, scientists, and professionals in the field. We also organize field trips to observatories, planetariums, 
-                                    and science museums to provide a firsthand experience of space exploration.
+                                <div class="text-purple-800 text-xl mt-4 ml-4">Members of the ESKC Club can attend in regular trainings, participate in regular meetings, workshops, and events. These gatherings feature educational sessions, demonstrations, and presentations by guest speakers, scientists, and professionals in the field. We also organize field trips to observatories, planetariums, and science museums to  provide a firsthand experience of space exploration.
+
                                 </div>
                             </div>
                         </div>
@@ -93,10 +92,8 @@
                                    
                                 </div>
                                 <div class="text-purple-800 text-xl mt-4 ml-4">
-                                    We encourage creativity, problem-solving, and teamwork through space- 
-                                    related competitions and projects. Members can showcase their skills and 
-                                    innovative ideas in science fairs, model-making contests, robotics challenges, and more. Our dedicated mentors provide guidance and support to help members 
-                                    excel in their projects and participate in regional and national competitions.
+                                    We encourage creativity, problem-solving, and teamwork through space-related competitions and projects. Members can showcase their skills and innovative ideas in science fairs, model-making contests, robotics challenges, and more. Our dedicated mentors provide guidance and support to help members excel in their projects and participate in regional and international competitions.
+
                                 </div>
                             </div>
                     </div>
@@ -112,11 +109,9 @@
                                 <div class="text-4xl text-purple-900 font-extrabold italic">Community Engagement</div>
                                 
                             </div>
-                            <div class="text-purple-800 text-xl mt-4 ml-4">The Ethiopian Space Kids Club actively engages with schools, communities, 
-                                and local organizations to spread awareness and inspire more children to pursue space science. 
-                                We conduct outreach programs, workshops, and presentations to share our knowledge and 
-                                passion with a wider audience. Through collaborations and partnerships, 
-                                we aim to create a strong network of space enthusiasts and promote the importance of STEM education.
+                            <div class="text-purple-800 text-xl mt-4 ml-4">The ESKC Club actively engages with schools, communities, and local organizations to spread awareness and inspire more children to pursue space science. We conduct outreach programs, workshops, and presentations to share our knowledge and passion with a wider audience. Through collaborations and partnerships, we aim to create a strong network of space enthusiasts and promote the importance of STEM education.
+
+
                             </div>
                         </div>
                     </div>
@@ -167,8 +162,7 @@
     <div class="max-w-3xl">
         <div class="px-6">
             <h2 class=" text-5xl text-center greencolor font-extrabold mb-5 italic">Registration</h2>
-            <p class=" text-center greencolor text-lg">If you're interested in joining the Ethiopian Space Kids Club, we invite you to fill out our online registration form. Simply provide the required information, including your name, age, contact details, and a brief statement about your interest in space science. 
-                We will review your application and get back to you with further instructions.
+            <p class=" text-center greencolor text-lg">If you're interested to join the Ethiopian Space Kids Club, we invite you to fill out our online registration form. Simply provide the required information, including your name, age, contact details, and a brief statement about your interest in space science. We will review your application and get back to you with further instructions.
             </p>
             <div class="flex justify-center mt-10 mb-10"> 
                 <button @click="register()" class="border border-gray-300 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
