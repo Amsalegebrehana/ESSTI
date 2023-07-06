@@ -1,7 +1,7 @@
 <template>
 
 <nav class="bg-white">
-  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 hidden sm:block">
     <div class="relative flex h-40 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <!-- Mobile menu button-->
@@ -19,8 +19,11 @@
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
-          <img class="block h-8 w-40 lg:hidden" src="../static/ESKC Logo-16.png" alt="Your Company">
-          <img class="hidden h-22 w-60 lg:block" src="../static/ESKC Logo-16.png" alt="Your Company">
+          <a href="/">
+
+            <img class="block h-8 w-40 lg:hidden" src="../static/ESKC Logo-16.png" alt="Your Company">
+            <img class="hidden h-22 w-60 lg:block" src="../static/ESKC Logo-16.png" alt="Your Company">
+          </a>
         </div>
        
       </div>
@@ -28,22 +31,22 @@
         <div>
           <img class="block h-14 w-20 mb-2 ml-3" src="../static/Untitled-1-02.png" alt="Your Company">
 
-            <a href="#" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">What we offer</a>
+            <a href="#section-offer" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">What we offer</a>
         </div>
         <div>
           <img class="block h-14 w-20 mb-2" src="../static/Untitled-1-03.png" alt="Your Company">
 
-            <a href="#" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Learn</a>
+            <a href="#section-learn" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Learn</a>
         </div>
         <div>
           <img class="block h-14 w-20 mb-2" src="../static/Untitled-1-05.png" alt="Your Company">
 
-            <a href="#" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Resourses</a>
+            <a href="#section-resources" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Resourses</a>
         </div>
         <div>
           <img class="block h-14 w-20 mb-2" src="../static/Untitled-1-04.png" alt="Your Company">
 
-            <a href="#" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Contact Us</a>
+            <a href="#section-contact" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Contact Us</a>
         </div>
         <button type="button" class="rounded border mt-10 px-5 ml-5 border-black bg-yellow-400 p-1 text-black-400 font-bold hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 p-2">
           DONATE
@@ -60,10 +63,12 @@
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+     <a href="/">  <img class="block h-12 w-30 lg:hidden" src="../static/ESKC Logo-16.png" alt="Your Company"></a>
+      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">What we offer </a>
+      
+      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Learn </a>
+      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Resources</a>
+      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact Us</a>
     </div>
   </div>
 </nav>

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white px-24">
+    <div id="section-contact" class="bg-white px-24">
       <div class="col-span-12 grid grid-cols-12 gap-6  pb-16 px-7 ml-10">
         <div class="col-span-12 sm:col-span-4 2xl:col-span-3 intro-y  py-14">
           <div class="relative">
@@ -25,13 +25,15 @@
                   <label class="block italic tracking-wide text-red-600 text-2xs font-bold mb-2" for="full-name">
                     Full Name
                   </label>
-                  <input v-model="fullName" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="full-name" type="text" placeholder="Jane" required>
+                  <input v-model="fullName" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="full-name" type="text" placeholder="Full Name" required>
                 </div>
                 <div class="w-full md:w-1/2 px-3">
                   <label class="block italic tracking-wide text-red-600 text-2xs font-bold mb-2" for="phone-number">
                     Phone Number
                   </label>
-                  <input v-model="phoneNumber" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="phone-number" type="text" placeholder="Jane" required>
+                  <input v-model="phoneNumber" 
+                  class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                   id="phone-number" type="text" placeholder="   Phone Number" required>
                 </div>
               </div>
               <div class="flex flex-wrap -mx-3 mb-6">
@@ -39,17 +41,20 @@
                   <label class="block italic tracking-wide text-red-600 text-2xs font-bold mb-2" for="email">
                     Email
                   </label>
-                  <input v-model="email" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="Jane" required>
+                  <input v-model="email" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="Email" required>
                   <label class="block italic tracking-wide text-red-600 text-2xs font-bold mb-2" for="education-level">
                     Educational Level
                   </label>
-                  <input v-model="educationLevel" class="appearance-none block w-full text-red-600 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="education-level" type="text" placeholder="Jane" required>
+                  <input v-model="educationLevel" 
+                  class="appearance-none block w-full text-red-600 border border-red-500 rounded-full py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" 
+                  id="education-level" type="text" placeholder="Educational Level" required>
                 </div>
                 <div class="w-full md:w-1/2 px-3">
                   <label class="block italic tracking-wide text-red-600 text-2xs font-bold mb-2" for="message">
                     Message
                   </label>
-                  <textarea v-model="message" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="message" type="text" placeholder="Doe"></textarea>
+                  <textarea v-model="message" class="appearance-none block w-full text-gray-700 border border-red-500 rounded-full py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
+                  id="message" type="text" placeholder="Message"></textarea>
                 </div>
               </div>
               <button class="relative border border-white text-4xl font-bold text-white rounded-md italic px-14 py-2 bg-red-600 mt-7" type="submit" :disabled="isSubmitting">

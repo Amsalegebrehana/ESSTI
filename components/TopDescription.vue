@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y py-14">
-                <p class="text-5xl font-extrabold greencolor mt-4 italic">
+                <p id="section-about" class="text-5xl font-extrabold greencolor mt-4 italic">
                     Who are we?
                 </p>
                 <div class="mt-5 mr-5">
@@ -26,7 +26,7 @@
 
         <div class="col-span-12 grid grid-cols-12 gap-6 mt-8">
             <div class="col-span-12 sm:col-span-4 2xl:col-span-3 intro-y">
-                <p class="text-5xl font-extrabold greencolor mt-4 italic">
+                <p id="section-offer" class="text-5xl font-extrabold greencolor mt-4 italic">
                     What We Offer
                 </p>
                 <img src = "../static/eskc svgs-01.svg" alt="My Happy SVG" class="w-1/12 mt-24"/>
@@ -127,7 +127,7 @@
         <div class="flex justify-center mb-5">
             <div class="max-w-2xl">
                 <div class="px-5">
-                    <h2 class="text-red-600 text-5xl text-center font-extrabold italic mb-5">Online Learning Platform</h2>
+                    <h2 id="section-learn" class="text-red-600 text-5xl text-center font-extrabold italic mb-5">Online Learning Platform</h2>
                     <p class="text-red-500 text-center text-lg">We are excited to offer our members an online education platform,
                     designed to enhance their learning experience and provide access to resources from anywhere.</p>
                 </div>
@@ -145,7 +145,7 @@
                 <img src="../static/icons-18.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
             <div class="border border-purple-800 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
-                <h3 class="text-2xl font-bold text-center text-purple-900">Resource Library</h3>
+                <h3 id="section-resources" class="text-2xl font-bold text-center text-purple-900">Resource Library</h3>
                 <img src="../static/icons-19.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
             <div class="border border-red-400 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">

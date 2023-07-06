@@ -27,10 +27,10 @@
                     Social Media
                 </p>
                 <div class="flex ">
-                    <img src="../static/icons8-facebook-48.png" alt="facebook" class="text-center p-2 w-1/2 rounded-full">
-                    <img src="../static/icons8-instagram-50.png" alt="instagram" class="text-center p-2 w-5/6 rounded-full">
-                    <img src="../static/icons8-twitter-50.png" alt="twitter" class="text-center p-2 w-5/6 rounded-full ">
-                    <img src="../static/icons8-youtube-48.png" alt="youtube" class="text-center p-2 w-5/6 rounded-full mr-5">
+                    <img src="../static/icons8-facebook.svg" alt="facebook" class="text-center p-2 w-2/6 rounded-full">
+                    <img src="../static/icons8-instagram.svg" alt="instagram" class="text-center p-2 w-2/6 rounded-full">
+                    <img src="../static/icons8-twitter-50.png" alt="twitter" class="text-center p-2 w-2/6 rounded-full ">
+                    <img src="../static/icons8-youtube-48.png" alt="youtube" class="text-center p-2 w-2/6 rounded-full mr-5">
 
                 </div>
             </div>
