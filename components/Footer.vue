@@ -4,7 +4,7 @@
         <div class="col-span-12 grid grid-cols-12 gap-6  pb-16 px-7">
             <div class="col-span-12 sm:col-span-4 2xl:col-span-3 intro-y p-10 ">
                 <div class="relative ">
-                    <img src="../static/esssti.png" alt="Rocket" class="text-center p-2 bg-white rounded-xl  w-3/4">
+                    <img src="../static/ESKC Logo-28.png" alt="Rocket" class="text-center p-2 bg-white rounded-xl  w-3/4">
                    
                     
                 </div>
@@ -15,7 +15,7 @@
             </div>
             <div class="col-span-12 sm:col-span-6 2xl:col-span-3 mt-24 ">
                 <div class="relative">
-                    <img src="../static/rocket-21.png" alt="Rocket" class="absolute  bottom-0 right-0 -mb-24 mr-16 z-10">
+                    <img src="../static/rocket -21.svg" alt="Rocket" class="absolute  bottom-0 right-0 -mb-24 mr-16 z-10">
                 </div>
                
             </div>

@@ -29,22 +29,22 @@
       </div>
       <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
         <div>
-          <img class="block h-14 w-20 mb-2 ml-3" src="../static/Untitled-1-02.png" alt="Your Company">
+          <img class="block h-14 w-20 mb-2 ml-3" src="../static/eskc header icons-03.svg" alt="Your Company">
 
             <a href="#section-offer" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">What we offer</a>
         </div>
         <div>
-          <img class="block h-14 w-20 mb-2" src="../static/Untitled-1-03.png" alt="Your Company">
+          <img class="block h-14 w-20 mb-2" src="../static/eskc header icons-04.svg" alt="Your Company">
 
             <a href="#section-learn" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Learn</a>
         </div>
         <div>
-          <img class="block h-14 w-20 mb-2" src="../static/Untitled-1-05.png" alt="Your Company">
+          <img class="block h-14 w-20 mb-2" src="../static/eskc header icons-05.svg" alt="Your Company">
 
             <a href="#section-resources" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Resourses</a>
         </div>
         <div>
-          <img class="block h-14 w-20 mb-2" src="../static/Untitled-1-04.png" alt="Your Company">
+          <img class="block h-14 w-20 mb-2" src="../static/eskc header icons-27.svg" alt="Your Company">
 
             <a href="#section-contact" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Contact Us</a>
         </div>
