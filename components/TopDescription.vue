@@ -134,25 +134,25 @@
             </div>
         </div>
         <!--  -->
-        <div class="flex justify-center mt-5 p-4">
-            <div class="border border-green-300 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl  hover:-translate-y-0.5  hover:rotate-2 hover:scale-105 transition-all duration-300">
+        <div class="flex flex-wrap justify-center mt-5 p-4">
+            <div class="border border-green-300 rounded-3xl mx-2 my-2 p-4 w-full sm:w-auto sm:flex-grow sm:flex-shrink-0 sm:max-w-xs hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
                 <h3 class="text-2xl font-bold text-center greencolor">Interactive Lessons</h3>
-                <!-- call images from static folder -->
                 <img src="../static/icons-17.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
-            <div class="border border-red-700 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
+            <div class="border border-red-700 rounded-3xl mx-2 my-2 p-4 w-full sm:w-auto sm:flex-grow sm:flex-shrink-0 sm:max-w-xs hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
                 <h3 class="text-2xl font-bold text-center text-red-700">Discussion Forums</h3>
                 <img src="../static/icons-18.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
-            <div class="border border-purple-800 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
+            <div class="border border-purple-800 rounded-3xl mx-2 my-2 p-4 w-full sm:w-auto sm:flex-grow sm:flex-shrink-0 sm:max-w-xs hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
                 <h3 id="section-resources" class="text-2xl font-bold text-center text-purple-900">Resource Library</h3>
                 <img src="../static/icons-19.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
-            <div class="border border-red-400 rounded-3xl mr-5 p-4 m-2 hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
+            <div class="border border-red-400 rounded-3xl mx-2 my-2 p-4 w-full sm:w-auto sm:flex-grow sm:flex-shrink-0 sm:max-w-xs hover:shadow-xl hover:-translate-y-0.5 hover:rotate-2 hover:scale-105 transition-all duration-300">
                 <h3 class="text-2xl font-bold text-center text-red-500">Project Collaboration</h3>
                 <img src="../static/icons-20.png" alt="Online Learning Platform" class="text-center p-10">
             </div>
         </div>
+
 
 
 

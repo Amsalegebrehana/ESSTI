@@ -64,11 +64,11 @@
     <div class="space-y-1 px-2 pb-3 pt-2">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
      <a href="/">  <img class="block h-12 w-30 lg:hidden" src="../static/ESKC Logo-16.png" alt="Your Company"></a>
-      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">What we offer </a>
+      <a href="#section-offer" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">What we offer </a>
       
-      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Learn </a>
-      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Resources</a>
-      <a href="/" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact Us</a>
+      <a href="#section-learn" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Learn </a>
+      <a href="#section-resourses" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Resources</a>
+      <a href="#section-contact" class="text-purple-900 hover:bg-purple-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact Us</a>
     </div>
   </div>
 </nav>
