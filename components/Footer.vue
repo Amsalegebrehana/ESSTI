@@ -26,11 +26,12 @@
 
                     Social Media
                 </p>
-                <div class="flex ">
-                    <img src="../static/icons8-facebook.svg" alt="facebook" class="text-center p-2 w-2/6 rounded-full">
-                    <img src="../static/icons8-instagram.svg" alt="instagram" class="text-center p-2 w-2/6 rounded-full">
-                    <img src="../static/eskc svgs-16.svg" alt="twitter" class="text-center p-2 w-2/6 rounded-full ">
-                    <img src="../static/eskc svgs-17.svg" alt="youtube" class="text-center p-2 w-2/6 rounded-full">
+                <div class="flex space-x-3 mt-3">
+                    <img src="../static/icons8-facebook.svg" alt="facebook" class="text-center  w-1/6 rounded-full">
+                    <img src="../static/icons8-instagram.svg" alt="instagram" class="text-center  w-1/6 rounded-full">
+                    <img src="../static/eskc svgs-16.svg" alt="twitter" class="text-center  w-1/6 rounded-full ">
+                    <img src="../static/eskc svgs-17.svg" alt="youtube" class="text-center  w-1/6 rounded-full">
+                    <img src="../static/eskc svgs-18.svg" alt="youtube" class="text-center  w-1/6 rounded-full">
                    
                 </div>
             </div>
