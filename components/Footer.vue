@@ -1,6 +1,5 @@
 <template>
     <div class="bg-gray-600 px-10">
-        <!-- <img src="../static/rocket-21.png" alt="Rocket" class="absolute z-10  text-center p-10">  -->
         <div class="col-span-12 grid grid-cols-12 gap-6  pb-16 px-7">
             <div class="col-span-12 sm:col-span-4 2xl:col-span-3 intro-y p-10 ">
                 <div class="relative ">
@@ -20,8 +19,7 @@
                
             </div>
             <div class="col-span-12 sm:col-span-2 2xl:col-span-3 intro-y  py-14">
-                    <!-- <img src="../static/rocket-21.png" alt="Rocket" class="absolute top-0 right-0 p-10 z-10"> -->
-
+                   
                 <p class="text-white text-3xl italic font-extrabold  ml-2 mt-7">
 
                     Social Media
