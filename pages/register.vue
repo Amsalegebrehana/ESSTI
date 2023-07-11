@@ -243,15 +243,15 @@
                 
                   <div class="flex items-center mb-4">
                     <input
-                      id="default-radio-1"
-                      type="radio"
-                      value=""
-                      name="default-radio"
-                      v-model="skillOption"
+                    id="default-radio-1s"
+                    type="radio"
+                    value="skill-yes"
+                    name="skill-option"
+                    v-model="skillOption"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     >
                     <label
-                      for="default-radio-1"
+                      for="default-radio-1s"
                       class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                     >
                       Yes
@@ -259,15 +259,15 @@
                   </div>
                     <div class="flex items-center">
                       <input
-                        id="default-radio-2"
-                        type="radio"
-                        value=""
-                        name="default-radio"
-                        v-model="skillOption"
+                      id="default-radio-2s"
+                      type="radio"
+                      value="skill-no"
+                      name="skill-option"
+                      v-model="skillOption"
                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                       >
                       <label
-                        for="default-radio-2"
+                        for="default-radio-2s"
                         class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                       >
                        No
@@ -289,15 +289,15 @@
                 
                 <div class="flex items-center mb-4">
                   <input
-                    id="default-radio-1"
-                    type="radio"
-                    value=""
-                    name="default-radio"
-                    v-model="projectOption"
+                  id="default-radio-1p"
+                  type="radio"
+                  value="project-yes"
+                  name="project-option"
+                  v-model="projectOption"
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   >
                   <label
-                    for="default-radio-1"
+                    for="default-radio-1p"
                     class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Yes
@@ -305,15 +305,15 @@
                 </div>
                   <div class="flex items-center">
                     <input
-                      id="default-radio-2"
-                      type="radio"
-                      value=""
-                      name="default-radio"
-                      v-model="projectOption"
+                    id="default-radio-2p"
+                    type="radio"
+                    value="project-no"
+                    name="project-option"
+                    v-model="projectOption"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     >
                     <label
-                      for="default-radio-2"
+                      for="default-radio-2p"
                       class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                     >
                      No
@@ -332,15 +332,15 @@
                 
                 <div class="flex items-center mb-4">
                   <input
-                    id="default-radio-1"
-                    type="radio"
-                    value=""
-                    name="default-radio"
-                    v-model="competition"
+                  id="default-radio-1c"
+                  type="radio"
+                  value="competition-yes"
+                  name="competition-option"
+                  v-model="competitionOption"
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   >
                   <label
-                    for="default-radio-1"
+                    for="default-radio-1c"
                     class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     Yes
@@ -348,15 +348,15 @@
                 </div>
                   <div class="flex items-center">
                     <input
-                      id="default-radio-2"
-                      type="radio"
-                      value=""
-                      name="default-radio"
-                      v-model="competition"
+                    id="default-radio-2c"
+                    type="radio"
+                    value="competition-no"
+                    name="competition-option"
+                    v-model="competitionOption"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     >
                     <label
-                      for="default-radio-2"
+                      for="default-radio-2c"
                       class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                     >
                      No
@@ -389,6 +389,7 @@
                   </div>
                   </div>
             </div>
+            
             <div v-if="current === 3">
 
               <div class="border-l-8  pl-5 border-red-600 mb-5 pb-5">
@@ -576,30 +577,30 @@
                 
                 <div class="flex items-center mb-4">
                   <input
-                    id="default-radio-1"
+                    id="default-radio-1a"
                     type="radio"
-                    value=""
-                    name="default-radio"
+                    value="participation"
+                    name="default-radioa"
                     v-model="participation"
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   >
                   <label
-                    for="default-radio-1"
+                    for="default-radio-1a"
                     class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                     Yes
                   </label>
                 </div>
                   <div class="flex items-center">
                     <input
-                      id="default-radio-2"
+                      id="default-radio-2a"
                       type="radio"
-                      value=""
-                      name="default-radio"
+                      value="participation"
+                      name="default-radioa"
                       v-model="participation"
                       class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     >
                     <label
-                      for="default-radio-2"
+                      for="default-radio-2a"
                       class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                     >
                      No
@@ -693,6 +694,9 @@ export default {
       competition: '',
       participation: '',
       projectOption: '',
+      competitionOption: '',
+      selectedRating: '',
+      
 
     };
   },
