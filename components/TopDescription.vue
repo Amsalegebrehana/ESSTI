@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y py-14">
-                <p id="section-about" class="text-5xl font-extrabold greencolor mt-4 italic">
+                <p id="section-about" class="text-5xl font-extrabold text-purple-900 mt-4 italic">
                     Who are we?
                 </p>
                 <div class="mt-5 mr-5">
@@ -159,18 +159,22 @@
         <hr class="border-t border-red-500 my-4 mx-48 mt-14 ">
         <!--  -->
         <div class="flex justify-center mt-10 mb-10">
-    <div class="max-w-3xl">
-        <div class="px-6">
-            <h2 class=" text-5xl text-center greencolor font-extrabold mb-5 italic">Registration</h2>
-            <p class=" text-center greencolor text-lg">If you're interested to join the Ethiopian Space Kids Club, we invite you to fill out our online registration form. Simply provide the required information, including your name, age, contact details, and a brief statement about your interest in space science. We will review your application and get back to you with further instructions.
-            </p>
-            <div class="flex justify-center mt-10 mb-10"> 
-                <button @click="register()" class="border border-gray-300 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
-                 Register
-                </button>
+            <div class="max-w-3xl">
+                    <div class="px-6">
+                        <h2 class=" text-5xl text-center text-purple-900 font-extrabold mb-5 italic">Registration</h2>
+                        <p class=" text-center text-purple-900 text-lg">If you're interested to join the Ethiopian Space Kids Club, we invite you to fill out our online registration form. Simply provide the required information, including your name, age, contact details, and a brief statement about your interest in space science. We will review your application and get back to you with further instructions.
+                        </p> 
+                    </div>
+                    <div>
+                        <img src="../static/eskc page contents-13.svg" alt="" max-height="700">
+                    </div>
+                    <div class="flex justify-center mt-10 mb-10"> 
+                        <button @click="register()" class="border border-gray-300 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
+                        Apply Now
+                        </button>
+                    </div>
+                
             </div>
-        </div>
-    </div>
 </div>
 
 
@@ -184,7 +188,7 @@ export default {
         // register redirect to https://forms.gle/FxQyYKVuQCP5RjNn6 
         register(){
             // navigate to the registration page
-            this.$router.push('/register');
+            this.$router.push('/joininfo');
         },
     }
 

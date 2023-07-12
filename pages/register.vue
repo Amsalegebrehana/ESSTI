@@ -2,7 +2,10 @@
   <div>
       <NavBar/>
       <div class="bg-white mt-2 pb-16">
-          <div  class="max-w-3xl mx-auto pb-28">
+        <div v-if="isLoading" class="flex items-center justify-center h-screen">
+      <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-gray-900"></div>
+    </div>
+          <div v-else  class="max-w-3xl mx-auto pb-28">
               <h1 class="text-6xl font-extrabold text-center text-purple-900 pt-5">ESKC Application Form</h1>
               <hr  class="mt-10 border-t-4 border-green-400 my-14  "/>
               
@@ -637,13 +640,19 @@
             </div>
       </div>
       </div>
+      <ErrorModal v-if="!registersuccess && error" />
+      <Modal v-if="registersuccess" />
       <Footer />
   </div>
 </template>
 
 <script>
+
 import NavBar from '../components/NavBar.vue';
 import VueTagsInput from '@johmun/vue-tags-input';
+import { mapActions } from 'vuex'
+import Modal from '../components/Modal.vue';
+import ErrorModal from '../components/ErrorModal.vue';
 
 export default {
   components: {
@@ -651,13 +660,16 @@ export default {
   },
   data() {
     return {
+      isLoading: false,
+      error:false,
+      registersuccess:false,
       current: 0,
       firstName: "",
       lastName: "",
       email: "",
       phoneNumber: "",
       sex: "",
-      dateOfBirth: "",
+      dateOfBirth: new Date(),
       region: "",
       zone: "",
       wereda: "",
@@ -697,13 +709,15 @@ export default {
       competitionOption: '',
       selectedRating: '',
       
+      competitionDetail: '',
 
     };
   },
   methods: {
+    ...mapActions('user', ['register']),
     nextButton() {
       this.current = this.current + 1;
-      console.log(this.current);
+
     },
     prevButton() {
       if (this.current == 0) {
@@ -712,14 +726,68 @@ export default {
       this.current = this.current - 1;
     },
 
-    submitForm() {
-      // Handle form submission logic here
-      // You can access form data using the component's data properties
-      console.log("Form submitted!");
-      console.log(this.firstName);
-      console.log(this.lastName);
-      console.log(this.email);
+    async submitForm() {
+      this.isLoading = true;
+      
       // ...
+      const userInfo = {
+          firstName: this.firstName,
+          lastName: this.lastName,
+          email : this.email,
+          phoneNumber: this.phoneNumber,
+          sex: this.sex,
+          dateOfBirth: this.dateOfBirth,
+          region: this.region,
+          zone: this.zone,
+          wereda:   this.wereda,
+          parentFirstName: this.parentFirstName,
+          parentLastName: this.parentLastName,
+          parentEmail: this.parentEmail,
+          parentPhoneNumber: this.parentPhoneNumber,
+          schoolName: this.schoolName,
+          schoolType: this.schoolType,
+          schoolRegion:   this.schoolRegion,
+          schoolZone: this.schoolZone,
+          schoolWereda: this.schoolWereda,
+          educationalLevel: this.educationalLevel,
+          documentLink:   this.documentLink,
+          projectDetail: this.projectDetail,
+          selectedReadingRating: this.selectedReadingRating,
+          selectedWritingRating: this.selectedWritingRating,
+          selectedListenRating: this.selectedListenRating,
+          selectedSpeakingRating: this.selectedSpeakingRating,
+          motivationDetail : this.motivationDetail,
+          cvLink: this.cvLink,
+          certificateLink: this.certificateLink,
+          recommendationLink: this.recommendationLink,
+          skillOption: this.skillOption,
+          competition: this.competition,
+          projectOption: this.projectOption,
+          competitionOption: this.competitionOption,
+          selectedRating: this.selectedRating,
+          skillOption: this.skillOption,  // Include this field
+          competition: this.competition,  // Include this field
+          participation: this.participation,  // Include this field
+          projectOption: this.projectOption,  // Include this field
+          competitionOption: this.competitionOption,  // Include this field
+          selectedRating: this.selectedRating  
+
+      } 
+   
+
+      const res = await this.register(userInfo);
+
+      this.isLoading = false;
+ 
+
+      if(res.status === 201 || res.response.status === 201 ){
+        this.registersuccess = true;
+
+      }
+      else{
+        this.error = true
+      }
+
     },
   },
 };

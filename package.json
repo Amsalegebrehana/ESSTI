@@ -12,6 +12,7 @@
     "@johmun/vue-tags-input": "^2.1.0",
     "axios": "^1.4.0",
     "core-js": "^3.19.3",
+    "dotenv": "^16.3.1",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
