@@ -16,8 +16,7 @@ const actions = {
             
             const res = await axios.post('https://eskcadmin.onrender.com/api/register/', userInfo)
             commit('SET_USERINFO', userInfo)
-            console.log(res)
-            console.log("backend",res.data)
+    
 
             return res
         } catch (error) {

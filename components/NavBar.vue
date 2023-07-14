@@ -48,9 +48,9 @@
 
             <a href="#section-contact" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Contact Us</a>
         </div>
-        <button type="button" class="rounded border mt-10 px-5 ml-5 border-black bg-yellow-400 p-1 text-black-400 font-bold hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 p-2">
+        <a type="button" href="/donate"  class="rounded border mt-10 px-5 ml-5 border-black bg-yellow-400 p-1 text-black-400 font-bold hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 p-2">
           DONATE
-        </button>
+        </a>
 
    
           

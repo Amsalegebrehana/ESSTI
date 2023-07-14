@@ -19,9 +19,9 @@
           </div>
           <div class="col-span-12 sm:col-span-6 2xl:col-span-3 intro-y mt-16">
             <div class="flex justify-center mt-14 mb-5 py-16"> 
-                <button class="border border-gray-300 text-purple-900 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
-              Donate
-                </button>
+                <a type="button" href="/donate"  class="border border-gray-300 text-purple-900 text-4xl font-bold rounded-md italic px-8 py-2 bg-yellow-400">
+                  Donate
+                </a>
             </div>
           </div>
         
