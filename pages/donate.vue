@@ -32,8 +32,6 @@
                     class="w-1/2 shadow px-2 py-1 border border-gray-300 rounded-full">
                 </div>
      
-
-
             <div class="mb-4 flex flex-col">
                 <label for="email" class="mb-3 italic">Email</label>
                 <input type="email" id="email" v-model="email" required
@@ -66,7 +64,6 @@
             </div>
         </div>
           
-
         </div>
 
      </div>
@@ -85,7 +82,9 @@
       methods:{
 
         submit(){
-
+           //    redirect to index page
+              this.$router.push('/');
+             
         }
       }
   }
