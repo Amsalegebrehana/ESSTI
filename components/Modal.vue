@@ -9,8 +9,8 @@
   
       <div v-if="showModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
         <div class="bg-white rounded-lg p-8">
-          <h2 class="text-2xl font-bold text-center text-green-500 mb-4">Registrations Success!</h2>
-          <p>Your are successfully registered and we will get back to you.</p>
+          <h2 class="text-2xl font-bold text-center text-green-500 mb-4">{{ title }}</h2>
+          <p>{{ body }}</p>
           <div class="mt-6 flex justify-end">
             <button
               @click="closeModal"
@@ -30,6 +30,16 @@
       return {
         showModal: true
       };
+    },
+    props: {
+      title: {
+        type: String,
+        required: true
+      },
+      body: {
+        type: String,
+        required: false
+      }
     },
     methods: {
       closeModal() {

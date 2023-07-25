@@ -51,13 +51,13 @@
                 <label for="payment-option" class="block mb-2">Donate Option</label>
                 <select id="payment-option" v-model="selectedPaymentOption" class="w-1/2 px-4 py-2 border border-gray-300 rounded-md">
                     <option value="" disabled selected>Select payment option</option>
-                    <option value="in-kind">In Kind</option>
-                    <option value="in-cash">In Cash</option>
+                    <option value="kind">In Kind</option>
+                    <option value="cash">In Cash</option>
                 </select>
             </div>
             <div class=" mt-10  mb-24">
                     
-                <button type="submit" @click="submit()" class="rounded-full border text-xl font-bold italic border-purple-700 bg-white hover:bg-purple-700 hover:text-white text-purple-700 px-14 py-3">
+                <button v-if="!isLoading" type="submit" @click="submit()" class="rounded-full border text-xl font-bold italic border-purple-700 bg-white hover:bg-purple-700 hover:text-white text-purple-700 px-14 py-3">
                     Submit Form
                 </button>
 
@@ -65,7 +65,8 @@
         </div>
           
         </div>
-
+        <Modal v-if="donationSuccess" :title="successTitle"  :body="successBody"/>
+        <ErrorModal v-if="donationError" />
      </div>
     <Footer />
     </div>
@@ -75,15 +76,64 @@
   <script>
  
   import Footer from '../components/Footer.vue';
+  import { mapActions } from 'vuex'
   
   export default {
       name: "DonatePage",
       components: {  Footer },
+      data(){
+          return{
+            donationSuccess: false,
+            donationError: false,
+            successTitle: 'Donation Success!',
+            successBody: 'Thank you for your donation. We will get back to you soon.',
+            isLoading: false,
+            firstName: '',
+            lastName: '',
+            email: '',
+            phoneNumber: '',
+            selectedPaymentOption: ''
+          }
+      },
       methods:{
+        ...mapActions('donation', ['createDonation']),
+        
+        async submit(){
+            this.isLoading = true;
+            //   check if all fields are filled
+            if(this.firstName === '' || this.lastName === '' || this.email === '' || this.phoneNumber === '' || this.selectedPaymentOption === ''){
+                alert('Please fill all fields');
+                this.isLoading = false;
+                return;
+            }
+            //    send data to backend
+            const data = {
+                first_name: this.firstName,
+                last_name: this.lastName,
+                email: this.email,
+                phone: this.phoneNumber,
+                donation_option: this.selectedPaymentOption
+            }
+      
 
-        submit(){
-           //    redirect to index page
-              this.$router.push('/');
+            const response = await this.createDonation(data);
+        
+            if (response.status === 201) {
+                this.donationSuccess = true;
+            }
+            else{
+                this.donationSuccess = false;
+                this.donationError = true;
+            }
+            //    clear form
+            this.firstName = '';
+            this.lastName = '';
+            this.email = '';
+            this.phoneNumber = '';
+            this.selectedPaymentOption = '';
+            this.isLoading = false;
+            //    show success message
+            
              
         }
       }

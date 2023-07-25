@@ -680,7 +680,7 @@
       </div>
       </div>
       <ErrorModal v-if="!registersuccess && error" />
-      <Modal v-if="registersuccess" />
+      <Modal v-if="registersuccess" :title="successTitle"  :body="successBody"/>
       <Footer />
   </div>
 </template>
@@ -699,6 +699,8 @@ export default {
   },
   data() {
     return {
+      successTitle: 'Registrations Success!',
+      successBody: 'Your application has been submitted successfully. We will get back to you soon.',
       isLoading: false,
       error:false,
       registersuccess:false,
