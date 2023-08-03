@@ -14,7 +14,7 @@ const actions = {
         try {
        
             
-            const res = await axios.post('https://eskcadmin.onrender.com/api/register/', userInfo)
+            const res = await axios.post('https://eskcadmin.onrender.com/api/user/register/', userInfo)
             commit('SET_USERINFO', userInfo)
     
 
