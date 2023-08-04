@@ -13,7 +13,7 @@ const getters = {
 const actions = {
     async createDonation({ commit }, donationInfo) {
         try {
-            const res = await axios.post('https://eskcadmin.onrender.com/api/donation/', donationInfo)
+            const res = await axios.post('http://127.0.0.1:8000/api/donation/', donationInfo)
             commit('SET_DONATIONINFO', donationInfo)
             return res
         } catch (error) {

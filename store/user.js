@@ -12,11 +12,9 @@ const actions = {
      
     async register({ commit }, userInfo) {
         try {
-       
-            
-            const res = await axios.post('https://eskcadmin.onrender.com/api/user/register/', userInfo)
+ 
+            const res = await axios.post('http://127.0.0.1:8000/api/user/register/', userInfo)
             commit('SET_USERINFO', userInfo)
-    
 
             return res
         } catch (error) {
