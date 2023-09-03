@@ -3,12 +3,11 @@
 <template>
 
 <div class="all">
-       <NavBar/>
- <div class="bg-ehite w-full text-white bg-main-color">
-    </div>
-    <!-- End of Navbar -->
+    <NavbarUser />
+ <div class="bg-white ">
+   
 
-    <div class="container mx-auto my-5 p-5">
+    <div class="container mx-auto my-5 p-10 mb-72">
         <div class="md:flex no-wrap md:-mx-2 ">
             <!-- Left Side -->
             <div class="w-full md:w-3/12 md:mx-2">
@@ -20,10 +19,10 @@
                             alt="">
                     </div>
                     <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">Jane Doe</h1>
-                    <h3 class="text-gray-600 font-lg text-semibold leading-6">Owner at Her Company Inc.</h3>
-                    <p class="text-sm text-gray-500 hover:text-gray-600 leading-6">Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Reprehenderit, eligendi dolorum sequi illum qui unde aspernatur non deserunt</p>
+                    <h3 class="text-gray-600 font-lg text-semibold leading-6">Grade 11 student</h3>
+                    <p class="text-sm text-gray-500 hover:text-gray-600 leading-6">A dedicated and enthusiastic Grade 11 student who exemplifies a passion for 
+                    learning and personal growth. With an insatiable curiosity and a strong work ethic,
+                     I consistently strives for academic excellence while also actively engaging in extracurricular pursuits. </p>
                     <ul
                         class="bg-gray-100 text-gray-600 hover:text-gray-700 hover:shadow py-2 px-3 mt-3 divide-y rounded shadow-sm">
                         <li class="flex items-center py-3">
@@ -34,6 +33,11 @@
                         <li class="flex items-center py-3">
                             <span>Member since</span>
                             <span class="ml-auto">Nov 07, 2016</span>
+
+                        </li>
+                        <li class="flex items-center py-3">
+                            <a href="/" class="text-red-600">Logout</a>
+                           
                         </li>
                     </ul>
                 </div>
@@ -54,43 +58,43 @@
                                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                             </svg>
                         </span>
-                        <span class="tracking-wide">About</span>
+                        <span class="tracking-wide text-3xl">About</span>
                     </div>
                     <div class="text-gray-700">
                         <div class="grid md:grid-cols-2 text-sm">
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">First Name</div>
+                                <div class="px-4 py-2 font-bold">First Name</div>
                                 <div class="px-4 py-2">Jane</div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Last Name</div>
+                                <div class="px-4 py-2 font-bold">Last Name</div>
                                 <div class="px-4 py-2">Doe</div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Gender</div>
+                                <div class="px-4 py-2 font-bold">Gender</div>
                                 <div class="px-4 py-2">Female</div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Contact No.</div>
+                                <div class="px-4 py-2 font-bold">Contact No.</div>
                                 <div class="px-4 py-2">+11 998001001</div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Current Address</div>
-                                <div class="px-4 py-2">Beech Creek, PA, Pennsylvania</div>
+                                <div class="px-4 py-2 font-bold">Current Address</div>
+                                <div class="px-4 py-2">Addis Ababa, Ethiopia</div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Permanant Address</div>
-                                <div class="px-4 py-2">Arlington Heights, IL, Illinois</div>
+                                <div class="px-4 py-2 font-bold">Permanant Address</div>
+                                <div class="px-4 py-2">Addis Ababa, Ethiopia</div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Email.</div>
+                                <div class="px-4 py-2 font-bold">Email.</div>
                                 <div class="px-4 py-2">
                                     <a class="text-blue-800" href="mailto:jane@example.com">jane@example.com</a>
                                 </div>
                             </div>
                             <div class="grid grid-cols-2">
-                                <div class="px-4 py-2 font-semibold">Birthday</div>
-                                <div class="px-4 py-2">Feb 06, 1998</div>
+                                <div class="px-4 py-2 font-bold">Birthday</div>
+                                <div class="px-4 py-2">Feb 06, 2005</div>
                             </div>
                         </div>
                     </div>
@@ -115,25 +119,22 @@
                                             d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                     </svg>
                                 </span>
-                                <span class="tracking-wide">Experience</span>
+                                <span class="tracking-wide text-3xl">Experience</span>
                             </div>
                             <ul class="list-inside space-y-2">
                                 <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
+                                    <div class="text-teal-600">Space Science community</div>
                                     <div class="text-gray-500 text-xs">March 2020 - Now</div>
                                 </li>
                                 <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
+                                    <div class="text-teal-600">Coding camp</div>
                                     <div class="text-gray-500 text-xs">March 2020 - Now</div>
                                 </li>
                                 <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
+                                    <div class="text-teal-600">Ethiopian Space Science Club</div>
+                                    <div class="text-gray-500 text-xs">July 2023 - Now</div>
                                 </li>
-                                <li>
-                                    <div class="text-teal-600">Owner at Her Company Inc.</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
-                                </li>
+                                
                             </ul>
                         </div>
                         <div>
@@ -148,16 +149,16 @@
                                             d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                                     </svg>
                                 </span>
-                                <span class="tracking-wide">Education</span>
+                                <span class="tracking-wide text-3xl">Education</span>
                             </div>
                             <ul class="list-inside space-y-2">
                                 <li>
-                                    <div class="text-teal-600">Masters Degree in Oxford</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
+                                    <div class="text-teal-600">Bootcamp</div>
+                                    <div class="text-gray-500 text-xs">August 2022</div>
                                 </li>
                                 <li>
-                                    <div class="text-teal-600">Bachelors Degreen in LPU</div>
-                                    <div class="text-gray-500 text-xs">March 2020 - Now</div>
+                                    <div class="text-teal-600">High School</div>
+                                    <div class="text-gray-500 text-xs">School of Tomorrow</div>
                                 </li>
                             </ul>
                         </div>
@@ -167,33 +168,18 @@
                 <!-- End of profile tab -->
             </div>
         </div>
-    </div>
+    </div >
+<Footer />
+</div>
 </div>
 </template>
 
 
 <style>
-    :root {
-        --main-color: #4a76a8;
-    }
-
-    .bg-main-color {
-        background-color: var(--main-color);
-    }
-
-    .text-main-color {
-        color: var(--main-color);
-    }
-
-    .border-main-color {
-        border-color: var(--main-color);
-    }
+  
 body{
   background-color: rgb(93, 11, 93) !important;
   
   
 }
 </style>
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-

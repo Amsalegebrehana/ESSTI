@@ -48,8 +48,9 @@
 
             <a href="#section-contact" class="text-black px-3 py-2 text-xl italic font-medium" aria-current="page">Contact Us</a>
         </div>
-        <a type="button" href="/login"  class="rounded border mt-10 px-5 ml-5 border-black bg-yellow-400 p-1 text-black-400 font-bold hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 p-2">
-          Login
+        <a href="/userprofile"  class="mt-10 px-15 ml-5  p-1 text-black-400 font-bold hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 p-2">
+          <img class="inline-block h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+ 
         </a>
 
    

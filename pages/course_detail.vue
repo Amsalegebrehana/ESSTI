@@ -1,7 +1,7 @@
 
 <template>
     <div>
-      <NavBar/>
+      <NavbarUser/>
                <div class="bg-white mt-2 pb-48">
     <div class="px-24 py-12 text-gray-700 dark:text-gray-500 transition duration-500 ease-in-out">
         <h2 class="text-4xl  font-medium capitalize">Materials</h2>
@@ -24,7 +24,7 @@
         <div v-for="(material, index) in materials" :key="index" class="flex flex-row mt-2 shadow-md">
             <div class="flex w-full items-center justify-between bg-white dark:bg-gray-800 px-8 py-6">
             <div class="flex">
-                <img class="h-12 w-12 rounded-full object-cover" :src="material.imageUrl" alt="infamous" />
+                <img class="h-32 w-18 rounded-md object-cover" :src="material.imageUrl" alt="infamous" />
                 <div class="flex flex-col ml-6">
                 <span class="text-lg font-bold">{{ material.title }}</span>
                 <div class="mt-4 flex">
@@ -44,7 +44,7 @@
                     <svg class="h-5 w-5 fill-current dark:text-gray-300" viewBox="0 0 24 24">
                         <!-- Clock icon -->
                     </svg>
-                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-300 capitalize">{{ material.time }}</span>
+                    <span class="ml-2 text-sm text-gray-600 dark:text-gray-300 capitalize"></span>
                     </div>
                 </div>
                 <div class="mt-4 flex">
@@ -58,14 +58,14 @@
                     <svg class="h-5 w-5 fill-current mr-2 text-blue-600" viewBox="0 0 576 512">
                         <!-- Note icon -->
                     </svg>
-                    <span>Add note</span>
+                    <span><a href="/material">Start</a> </span>
                     </button>
                 </div>
                 </div>
             </div>
             <div class="flex flex-col -mt-10 mr-20">
                 <span class="font-semibold text-green-500 dark:text-green-300"></span>
-                <span class="font-semibold text-green-500 dark:text-green-300">{{ material.refundAmount }}</span>
+                <span class="font-semibold text-green-500 dark:text-green-300">{{ material.time }}</span>
                 <span class="text-sm text-gray-700 dark:text-gray-400 mt-2"></span>
             </div>
             </div>
@@ -89,7 +89,27 @@ export default {
       materials: [
         {
           title: "Chapter 1: Introduction",
-          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeJ4HawHNH5Q_P2xu_apDfog5sIHLWAZhESuJmyA&s",
+          imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
+          type: "Video",
+          date: "13 aug 2016",
+          time: "2 hours",
+          course: "Course one",
+          refundAmount: "200 ",
+        
+        },
+           {
+          title: "Chapter 2: Fundamentals",
+          imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
+          type: "Video",
+          date: "13 aug 2016",
+          time: "45 minutes",
+          course: "Course one",
+          refundAmount: "200 ",
+        
+        },
+           {
+          title: "Chapter 3",
+          imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
           type: "Book",
           date: "13 aug 2016",
           time: "2 hours",
@@ -98,28 +118,8 @@ export default {
         
         },
            {
-          title: "Chapter 1: Introduction",
-          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeJ4HawHNH5Q_P2xu_apDfog5sIHLWAZhESuJmyA&s",
-          type: "Book",
-          date: "13 aug 2016",
-          time: "2 hours",
-          course: "Course one",
-          refundAmount: "200 ",
-        
-        },
-           {
-          title: "Chapter 1: Introduction",
-          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeJ4HawHNH5Q_P2xu_apDfog5sIHLWAZhESuJmyA&s",
-          type: "Book",
-          date: "13 aug 2016",
-          time: "2 hours",
-          course: "Course one",
-          refundAmount: "200 ",
-        
-        },
-           {
-          title: "Chapter 1: Introduction",
-          imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeJ4HawHNH5Q_P2xu_apDfog5sIHLWAZhESuJmyA&s",
+          title: "Chapter 4",
+          imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
           type: "Book",
           date: "13 aug 2016",
           time: "2 hours",

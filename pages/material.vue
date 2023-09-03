@@ -1,17 +1,17 @@
 <template>
   <div class="all">
   
-    <NavBar/>
+    <NavbarUser />
      <div class="bg-white mt-2 pb-16 ">
-        <div class="container">
+        <div class="container p-10">
         <div class="display">
             <div class="video">
-                <iframe width="1010" height="415" src="https://www.youtube.com/embed/bhnrIforc7s?si=x3lQLdsTvxBIhTof" title="YouTube video player" frameborder="0"
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/bhnrIforc7s?si=x3lQLdsTvxBIhTof" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
             </div> 
             <div class="description">
-                <h3>Description</h3>
+                <h3 class="text-sm">Description</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatum
                      sint reiciendis cupiditate odio ad sapiente sequi quam, neque quibusdam?
                 </p>
@@ -52,45 +52,25 @@
             </div>
         </div>
     </div>
-      
-<script setup>
-import { ref } from 'vue'
-import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
-import { XMarkIcon } from '@heroicons/vue/24/outline'
-
-const open = ref(true)
-</script>
      </div>
     <Footer />
     </div>
 
 </template>
-<style>
+
+<script setup>
+import { ref } from 'vue'
+// import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+// import { XMarkIcon } from '@heroicons/vue/24/outline'
+
+const open = ref(true)
+</script>
+  
+<style scoped>
 body{
   background-color: rgb(93, 11, 93) !important;
 }
-*,
-*::after,
-*::before{
-    box-sizing:border-box;
-}
 
-::selection{
-    background: var(--color-primary);
-    color: #fff;
-}
-html{
-    /*62.5% 0f 16px = 10px*/
-    font-size: 62.5%;
-}
-
-:root{
-    --color-primary:#2584ff;
-    --color-secondary:#00d9ff;
-    --color-heading:#1b0760;
-    --color-border: #ccc;
-    --border-radius: 30px;
-}
 
 body{
     font-family: Inter, Arial, Helvetica, sans-serif;
@@ -126,7 +106,7 @@ p{
 
 .container{
     margin: 1rem 0;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.5rem 9rem 0.5rem;
     display: flex;
     flex-direction: row;
 }
