@@ -88,43 +88,43 @@ export default {
     return {
       materials: [
         {
-          title: "Chapter 1: Introduction",
+          title: "Chapter 1: What Makes Up the Universe",
           imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
           type: "Video",
           date: "13 aug 2016",
           time: "2 hours",
           course: "Course one",
-          refundAmount: "200 ",
+          
         
         },
            {
-          title: "Chapter 2: Fundamentals",
+          title: "Chapter 2: Universe",
           imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
           type: "Video",
           date: "13 aug 2016",
           time: "45 minutes",
           course: "Course one",
-          refundAmount: "200 ",
+          
         
         },
            {
-          title: "Chapter 3",
+          title: "Chapter 3: Planets",
           imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
           type: "Book",
           date: "13 aug 2016",
           time: "2 hours",
           course: "Course one",
-          refundAmount: "200 ",
+          
         
         },
            {
-          title: "Chapter 4",
+          title: "Chapter 4: Formation of Stars and Galaxy",
           imageUrl: "https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg",
           type: "Book",
           date: "13 aug 2016",
           time: "2 hours",
           course: "Course one",
-          refundAmount: "200 ",
+    
         
         },
         
