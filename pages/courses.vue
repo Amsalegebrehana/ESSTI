@@ -59,8 +59,8 @@ export default {
     courses : [
         {
             id: 1,
-            title: 'Course one',
-            description: 'White and black',
+            title: 'Astronomy',
+            description: 'Astronomy is the scientific study of celestial objects, such as stars, planets, galaxies, and the universe as a whole. It is a vast and multidisciplinary field that encompasses physics, mathematics, chemistry, and biology.',
             href: '#',
             imageSrc: 'https://skyandtelescope.org/wp-content/uploads/Solar-system-NASA_480x274.jpg',
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
@@ -69,8 +69,8 @@ export default {
         },
         {
             id: 2,
-            title: 'Course Two',
-            description: 'White and black',
+            title: 'Aerospace',
+            description: 'Aerospace engineering is a multidisciplinary field that deals with the design, development, testing, and operation of aircraft, spacecraft, and missiles. It is a vast and complex field that encompasses a wide range of topics',
             href: '#',
             imageSrc: 'https://media.npr.org/assets/img/2020/11/18/nh-sc-pluto-illustration-71deaf602c8fe8dd73777e1cbf859507923366fc-s1100-c50.jpg',
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
@@ -79,8 +79,8 @@ export default {
         },
         {
             id: 3,
-            title: 'Course three',
-            description: 'White and black',
+            title: 'Planetary Science',
+            description: 'Planetary science is the scientific study of planets, moons, asteroids, comets, and other objects in the solar system. It is a multidisciplinary field that encompasses physics, chemistry, geology, and astronomy.',
             href: '#',
             imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL0w7GQm9twDN3kQJGwzPNREhrBDU16WXNcQ&usqp=CAU',
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
@@ -89,8 +89,8 @@ export default {
         },
           {
             id: 4,
-            title: 'Course four',
-            description: 'White and black',
+            title: 'Satellite Engineering',
+            description: 'Satellite engineering is a multidisciplinary field that deals with the design, development, testing, and operation of satellites. It is a vast and complex field that encompasses a wide range of topics',
             href: '#',
             imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xGUZY_Cj0lebigRpprjegJTv5RFltD4qDZr6fPPI4O1v3xoZlfBsJgnu4h7uB8QRpeM&usqp=CAU',
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',
@@ -99,8 +99,8 @@ export default {
         },
           {
             id: 5,
-            title: 'Course five',
-            description: 'White and black',
+            title: 'Theoretical Physics',
+            description: 'Theoretical physics is a branch of physics that deals with the development of physical theories, based on mathematical models, to explain and predict natural phenomena.',
             href: '#',
             imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNRjSM0Af5vXsuyLwZKyh6cxM1MbynS0gqFA&usqp=CAU',
             imageAlt: 'Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls.',

@@ -18,7 +18,7 @@
                             src="https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg"
                             alt="">
                     </div>
-                    <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">Jane Doe</h1>
+                    <h1 class="text-gray-900 font-bold text-xl leading-8 my-1">Alazar Adane</h1>
                     <h3 class="text-gray-600 font-lg text-semibold leading-6">Grade 11 student</h3>
                     <p class="text-sm text-gray-500 hover:text-gray-600 leading-6">A dedicated and enthusiastic Grade 11 student who exemplifies a passion for 
                     learning and personal growth. With an insatiable curiosity and a strong work ethic,
@@ -64,19 +64,19 @@
                         <div class="grid md:grid-cols-2 text-sm">
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">First Name</div>
-                                <div class="px-4 py-2">Jane</div>
+                                <div class="px-4 py-2">Alazar</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">Last Name</div>
-                                <div class="px-4 py-2">Doe</div>
+                                <div class="px-4 py-2">Adane</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">Gender</div>
-                                <div class="px-4 py-2">Female</div>
+                                <div class="px-4 py-2">Male</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">Contact No.</div>
-                                <div class="px-4 py-2">+11 998001001</div>
+                                <div class="px-4 py-2">+251969170097</div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">Current Address</div>
@@ -89,12 +89,12 @@
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">Email.</div>
                                 <div class="px-4 py-2">
-                                    <a class="text-blue-800" href="mailto:jane@example.com">jane@example.com</a>
+                                    <a class="text-blue-800" href="mailto:jane@example.com">alazaradane418@gmail.com</a>
                                 </div>
                             </div>
                             <div class="grid grid-cols-2">
                                 <div class="px-4 py-2 font-bold">Birthday</div>
-                                <div class="px-4 py-2">Feb 06, 2005</div>
+                                <div class="px-4 py-2">March, 25 2007</div>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                                 </li>
                                 <li>
                                     <div class="text-teal-600">High School</div>
-                                    <div class="text-gray-500 text-xs">School of Tomorrow</div>
+                                    <div class="text-gray-500 text-xs">Lebawi International Academy</div>
                                 </li>
                             </ul>
                         </div>
